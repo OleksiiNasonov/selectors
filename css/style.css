@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    display: block;  
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: #4A4F56;
+    color: #FF8984;  
+
+}
+main{
+    background-color: #3B3F45;
+    height: 610px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    
+}
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+}
+input{
+    margin: 0px 25px 0px 0px;
+}
+.checkbox {
+	vertical-align: top;
+	width: 17px;
+	height: 17px;
+	margin: 0 20px 0 0;
+    
+}
+
+.title { 
+    padding: 20px 0 4px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center
+}
+.subtitle {
+    text-align: center;
+    padding: 0 0 12px 0;
+} 
+.shoping-list {
+    margin: 0px 0 0 500px;
+    padding: 30px 0 50px;
+}
+
+.checkbox-list:nth-child(2n){
+    background: #88839E;
+    width: 530px;
+    height: 45px;
+}
+.checkbox-list:nth-child(2n+1){
+    background: #7A7593;
+    width: 530px;
+    height: 45px; 
+}
+
+*{transition: all .1s ease-in;}
+
+.span-style{
+    font-size: 11px;
+}
+.span-style::after{
+    content:' )';
+}
+.span-style::before{
+    content:' (';
+}
+
+.checkbox-list:hover{
+    background: #625E77;
+    border-top:2px solid #FFFFFF ;
+    border-bottom:2px solid #FFFFFF ;
+}
+
+.bonapetit{
+    background:#4A4F56;
+    width: 530px;
+    height: 45px;
+    margin: 0px 0 0 500px;
+    text-align: center;
+    color: #FF8984;
+}
+.bonapetit-text{
+    padding: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;  
+} 
+
+
+input:checked ~ span {
+    text-decoration: line-through;
+    opacity: 0.5;
+
+}
+.checkbox-list:active{
+    background-color: #FF8984;
+}
